@@ -10,7 +10,7 @@ function updateTime()
 
   var t = new Date().getHours();
 
-  if (t < 6 || t >= 23) 
+  if (t <= 6 || t >= 23) 
   {
     document.getElementById('dagofnacht').src = "images/maan.jpg";
   } 
