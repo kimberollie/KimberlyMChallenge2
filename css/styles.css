@@ -1,0 +1,52 @@
+body {
+    font-family: 'helvetica';
+    background-color: black;
+}
+
+h1{
+	color: orange;
+  display: flex;
+  justify-content: center;
+}
+
+#klok {
+
+    color: orange;
+  	display: flex;
+    justify-content: center;
+}
+
+#marsanimatie {
+max-width: 20%;
+  position: relative;
+  animation-name: mars;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+
+}
+img {
+	max-width: 20%;
+}
+
+#dagofnacht {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 50%;
+}
+
+@keyframes mars {
+  0%   {left:0%; top:15%;
+  		max-width: 5%;}	
+  25%  {left:45%; top:0%;
+  		max-width: 15%;}
+  50%   {left:90%; top:15%;
+  		max-width: 5%;}
+  75%  {left:45%; top:0%;
+  		max-width: 15%;}
+  100%  {left:0%; top:15%;
+  		max-width: 5%;}
+
+
