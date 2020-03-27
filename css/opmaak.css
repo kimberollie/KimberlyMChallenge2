@@ -1,0 +1,29 @@
+/*telefoon*/
+
+@media only screen and (min-width: 320px) { 
+	#dagofnacht {
+		max-width: 50%;
+	}
+}
+
+/*Tablet portrait*/
+@media only screen and (min-width: 768px) {
+	#dagofnacht {
+		max-width: 40%;
+	}
+}
+
+/*Tablet landscape*/
+@media only screen and (min-width: 1024px) {
+	#dagofnacht {
+		max-width: 30%;
+	}
+}
+
+/*Desktop */
+@media only screen and (min-width: 1440px) {
+	#dagofnacht {
+		max-width: 20%;
+	}
+}
+
