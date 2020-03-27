@@ -28,3 +28,14 @@ if (t <= 6 || t >= 23)
     document.getElementById('dagofnacht').src = "images/zon.jpg";
   } 
 }
+
+//Dit laat de systeemdatum zien in de body
+var maanden = ['januari', 'februari', 'maart', 'april', 'mei', 'juni', 'juni', 'augustus', 'september', 'oktober', 'november', 'december']; 
+
+function myTimer() 
+{
+    var today = new Date();
+    document.getElementById('datum').innerHTML = ('0' + today.getDate()).slice(-2) +
+     ' ' + (maanden[today.getMonth()]) +
+      ' ' + today.getFullYear();
+}

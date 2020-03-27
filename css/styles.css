@@ -49,6 +49,12 @@ body {
     max-width: 100%;
   }
 
+  #datum {
+    color: orange;
+    display: flex;
+    justify-content: center;
+  }
+
   #dagofnacht {
     max-width: 50%;
   } 
@@ -68,6 +74,12 @@ body {
     display: flex;
     justify-content: center;
     min-width: 70%;
+  }
+
+  #datum {
+    color: orange;
+    display: flex;
+    justify-content: center;
   }
 
   #dagofnacht {
@@ -91,6 +103,11 @@ body {
     justify-content: center;
     min-width: 30%;
   }
+  #datum {
+    color: orange;
+    display: flex;
+    justify-content: center;
+  }
 
   #dagofnacht {
     max-width: 30%;
@@ -112,7 +129,13 @@ body {
     justify-content: center;
     min-width: 30%;
   }
-  
+
+  #datum {
+    color: orange;
+    display: flex;
+    justify-content: center;
+  }
+
   #dagofnacht {
     max-width: 20%;
   } 
